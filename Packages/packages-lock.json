@@ -63,7 +63,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.multiplayer-hlapi": {
-      "version": "file:C:/Users/bt100/Downloads/MultiplayerHLAPI-master/MultiplayerHLAPI-master",
+      "version": "file:C:/Users/quynh/Downloads/multiplayer/MultiplayerHLAPI-master",
       "depth": 0,
       "source": "local",
       "dependencies": {
