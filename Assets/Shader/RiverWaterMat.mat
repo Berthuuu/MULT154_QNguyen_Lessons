@@ -47,7 +47,7 @@ Material:
     - _Wave2Feq: 1
     - _Wave2Speed: 2
     m_Colors:
-    - WHColor: {r: 0.36779094, g: 0.7165772, b: 0.8207547, a: 0}
+    - WHColor: {r: 0.18422925, g: 0.20550334, b: 0.33962262, a: 1}
     - _Base_River_Color: {r: 0, g: 0.8464825, b: 1, a: 0}
     - _Emmisive_Color: {r: 0.10145959, g: 0.3773585, b: 0.11474605, a: 0}
     - _WHColor: {r: 0.15330762, g: 0.5377358, b: 0.03804734, a: 0}
