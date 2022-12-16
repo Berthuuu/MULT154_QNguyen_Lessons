@@ -912,8 +912,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1663,9 +1663,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1795265020}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
-        m_Mode: 5
+        m_TargetAssemblyTypeName: ScoreList, Assembly-CSharp
+        m_MethodName: NewEntry
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1741,6 +1741,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e280efe9ea5c4a4d89b2472fa954437, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scores: []
+  fileName: test.data
+  input: {fileID: 1667612278}
+  finalPanel: {fileID: 155820704}
+  scorePanel: {fileID: 1944903782}
+  entryPrefab: {fileID: 5717435901544232389, guid: a6a22e73a57866748b0a274270c02b2a, type: 3}
 --- !u!4 &1795265021
 Transform:
   m_ObjectHideFlags: 0

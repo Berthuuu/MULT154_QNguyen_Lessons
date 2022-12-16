@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System.IO;
 
 [System.Serializable]public class Score
 {
@@ -28,14 +29,14 @@ public class ScoreList : MonoBehaviour
     void Start()
     {
         if (File.Exists(fileName))
-            using (BinaryReader reader = new BinaryReader(File.Open(filename, FileMode.open)))
+            using (BinaryReader reader = new BinaryReader(File.Open(fileName, FileMode.Open)))
             {
                 while (true)
                 {
                     try
                     {
                         string name = reader.ReadString();
-                        float time = reader.ReadSingle;
+                        float time = reader.ReadSingle();
 
                         scores.Add(new Score(name, time));
                     }
